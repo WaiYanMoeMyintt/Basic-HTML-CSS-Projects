@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-family: 'Roboto Slab', serif;
+  height:100vh;
+  background-image:linear-gradient(  rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://i.postimg.cc/jSh608FD/netflix-banner.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  padding:20px 15px;
+}
+.netflix-sub-container{
+  display:flex;
+  align-items:center;
+}
+a img{
+  width:20%;
+  cursor:pointer;
+}
+a input{
+  background-color:#E50914;
+  color:#fff;
+  font-size:1.2rem;
+  border:none;
+  outline:none;
+  border-radius:5px;
+  padding:6px 25px 6px 25px;
+  cursor:pointer;
+  margin-left:20px;
+}
+a input:hover{
+  background-color:#F73B45;
+}
+.netflix-title{
+  margin:8% 0;
+  text-align:center;
+  color:#fff;
+}
+.drop-down-title{
+  background-color:transparent;
+  border:1px solid #E0E0E0;
+  outline:none;
+  padding:8px 18px 8px 18px;
+  color:#fff;
+  margin-right:20px;
+  border-radius:2px;
+}
+.drop-down-title option{
+  background-color:#525252;
+}
+.netflix-title h1{
+  letter-spacing:2px;
+  font-size:3rem;
+  font-weight:900;
+  margin-bottom:10px;
+}
+.netflix-title h3{
+  font-size:1.5rem;
+  font-weight:650;
+  margin-bottom:8px;
+}
+.netflix-title p{
+  font-size:1rem;
+  margin-top:5px;
+  font-weight:400;
+}
+.footer-btn{
+  text-align:center;
+  color:#fff;
+  margin-right:20%;
+}
+.footer-btn input{
+    padding:20px 150px;
+    border:none;
+    outline:none;
+    margin-left:20px;
+}
+input::placeholder{
+  color:#7A7A7A;
+  font-weight:200;
+  font-size:1rem;
+  letter-spacing:1px;
+  position:relative;
+  right:80%;
+}
+.footer-section{
+   display:inline-block;
+   width:20%;
+}
+.text-footer {
+  background-color:#E50914;
+  padding:15px 40px;
+  font-size:1.2rem;
+  cursor:pointer;
+}
+.text-footer:hover{
+  background-color:#F73B45;
+}
+.footer-section , .text-footer{
+  position:absolute;
+}

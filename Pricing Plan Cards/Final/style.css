@@ -19,6 +19,8 @@ body{
     flex-wrap:wrap;
     justify-content:space-evenly;
     gap:20px;
+    position:relative;
+    bottom:10%;
 }
 h3{
     font-size:1.8rem;

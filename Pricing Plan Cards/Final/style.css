@@ -41,14 +41,9 @@ h2{
 .card-1,.card-2,.card-3{
     background-color:#242C44;
     color:#fff;
-    border-radius:10px;
+    border-radius:20px;
     padding:5% 6%;
 }
-input{
-    display:block;
-    background-color:red;
-}
-
 .icon1{
     display:flex;
     gap:20px;
@@ -63,9 +58,10 @@ input{
     border-radius:12px;
     border:none;
     outline:none;
+    text-align:center;
     position:relative;
-    top:40%;
-    right:10px;
+    left:4px;
+    top:27%;
 }
 .submit2{
     padding:7px 45px;
@@ -76,8 +72,10 @@ input{
     border-radius:12px;
     border:none;
     outline:none;
+    text-align:center;
     position:relative;
-    top:22%;
+    left:25px;
+    top:17%;
 }
 .submit3{
     padding:7px 45px;
@@ -88,6 +86,8 @@ input{
     border-radius:12px;
     border:none;
     outline:none;
+    text-align:center;
     position:relative;
-    top:14%;
+    left:25px;
+    top:8%;
 }

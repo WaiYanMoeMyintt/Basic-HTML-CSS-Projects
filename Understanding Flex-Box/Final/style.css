@@ -1,0 +1,152 @@
+body{
+  height:100vh;
+  padding:10px;
+}
+h2{
+  background-color:purple;
+  color:#fff;
+  text-align:center;
+   width:100%;
+   height:60px;
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  border:10px solid red;;
+}
+.p-1{
+  background-color:blue;
+  width:200px;
+  height:auto;
+  margin:10px;
+}
+.p-2{
+    width:200px;
+  height:auto;
+  background-color:red;
+  margin:10px;
+}
+.p-3{
+    width:200px;
+  height:auto;
+  background-color:green;
+
+  margin:10px;
+
+}
+.p-4{
+    width:200px;
+  height:auto;
+  background-color:purple;
+  margin:10px;
+}
+.p-5{
+    width:200px;
+  height:auto;
+  background-color:orange;
+  margin:10px;
+}
+.btn{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  border:5px solid blue;
+  gap:20px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+width:200px;
+  height:auto;
+  border-radius:5px;
+  margin:10px;
+  padding:6px 30px;
+  border:none;
+  cursor:pointer;
+}
+.btn1{
+  background-color:blue;
+}
+.btn2{
+  background-color:red;
+}
+.btn3{
+  background-color:orange;
+}
+.btn4{
+  background-color:purple;
+}
+.btn5{
+  background-color:pink;
+}
+.btn6{
+  background-color:yellow;
+}
+.img-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  align-items:flex-end;
+  flex-wrap:wrap-reverse;
+  column-gap:30px;
+  padding:30px;
+  position:absolute;
+  right:10px;
+  bottom:35%;
+  cursor:pointer;
+}
+.img-1,.img-2,.img-3,.img-4,.img-5{
+  width:100px;
+  height:auto;
+  border-radius:5px;
+}
+.img-3{
+  order:3;
+}
+
+.lorean{
+  height:100vh;
+  border:5px solid green;
+  margin:2% 5%;
+  padding:0 20px;
+  display: flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-around;
+  column-gap:20px;
+}
+.loren-1{
+  background-color:blue;
+  width:200px;
+  padding:6px 5px;
+  border-radius:5px;
+  align-self:flex-end;
+}
+.loren-2{
+  background-color:red;
+  width:200px;
+  padding:6px 5px;
+  border-radius:5px;
+  order:5;
+  align-self:flex-start;
+}
+.loren-3{
+  background-color:yellow;
+  width:200px;
+  padding:6px 5px;
+  border-radius:5px;
+  align-self:flex-end;
+}
+.loren-4{
+  background-color:pink;
+  width:200px;
+  padding:6px 5px;
+  border-radius:5px;
+}
+.loren-5{
+  background-color:purple;
+  width:200px;
+  padding:6px 5px;
+  border-radius:5px;
+}

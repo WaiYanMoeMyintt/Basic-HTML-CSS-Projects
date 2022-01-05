@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:wght@300&display=swap');
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+body{
+  height:95vh;
+font-family: 'Rubik', sans-serif;
+  padding:4% 3%;
+  display:flex;
+  justify-content:center;
+}
+h4{
+  color:#fff;
+  text-align:center;
+  padding-top:10px;
+  letter-spacing:1.2px;
+  font-weight:700;
+}
+h2{
+  color:#fff;
+  text-align:center;
+  font-size:1.4rem;
+  font-weight:400;
+  letter-spacing:2px;
+  margin-top:25px;
+}
+
+.title{
+  background-color:#A32974;
+  width:500px;
+  height:150px;
+  border-radius:10px 10px 0 0;
+}
+p{
+  font-size:0.9rem;
+  color:#ccc;
+  padding-top:55px;
+ margin-right:20px;
+  text-align:center;
+}
+.submit{
+  background-color:#A32974;
+  color:#fff;
+  font-size:1rem;
+  padding:12px 85px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:400;
+  font-family: 'Rubik', sans-serif;
+  position:relative;
+  left:19%;
+  top:10%;
+  letter-spacing:2px;
+  transition:background-color 1s ease-in-out;
+}
+.submit:hover{
+  background-color:rgb(159, 40, 74);
+}
+input{
+  display:block;
+  padding:15px 55px;
+  border:none;
+  outline:#ffff;
+  border-radius:5px;
+  position:relative;
+  left:20%;
+  border:1px solid rgb(118, 118, 118);
+  background-color:rgb(28,28,33);
+  
+}
+input::placeholder{
+  color:#ccc;
+  font-family: 'Rubik', sans-serif;
+  opacity:10px;
+  font-weight:100;
+  letter-spacing:0.5px;
+  position:relative;
+  right:20%;
+}
+main{
+ background-color:#1C1C21;
+ height:350px;
+ border-radius:0 0 10px 10px;
+ padding-top:40px;
+ 
+}
+.footer-section{
+  display:flex;
+  align-content:center;
+  justify-content:space-evenly;
+  padding-top:30px;
+  cursor:pointer;
+}
+.fa-facebook{
+  font-size:2.6rem;
+  color:#fff;
+  background-color:#1877F2;
+  border-radius:50%;
+  border:none;
+}
+.fa-twitter{
+  font-size:2.6rem;
+  color:#fff;
+  background-color:#1877F2;
+  border-radius:80%;
+  border:none;
+}
+.fa-reddit{
+  font-size:2.6rem;
+  color:#F14336;
+  background-color:#fff;
+  border-radius:50%;
+  border:none;
+  outline:none;
+}

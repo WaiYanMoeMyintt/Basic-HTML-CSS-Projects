@@ -22,8 +22,7 @@ body{
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
-  padding:2% 0;
-  background-color:#ccc;
+  padding:5% 0;
 }
 .sub-premium{
   background-color:#F7CB19;

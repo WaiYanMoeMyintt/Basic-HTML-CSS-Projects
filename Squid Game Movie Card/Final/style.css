@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  text-decoration:none;
+  list-style-type:none;
+}
+header{
+  background-image:url("https://i.postimg.cc/fb8bz4f4/wallpapersden-com-squid-game-2021-2048x1152.jpg");
+ background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  max-width:500px;
+  height:480px;
+  border-radius:10px;
+  padding:0 30px;
+}
+body{
+  height:95vh;
+  font-family: 'Roboto Slab', serif;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:2% 0;
+  background-color:#ccc;
+}
+.sub-premium{
+  background-color:#F7CB19;
+  color:#333;
+  font-size:1rem;
+  padding:4px 8px;
+  border-radius:5px;
+  cursor:pointer;
+  font-weight:500;
+  transition:background-color .6s ease-in;
+ position:absolute;
+ top:-40%;
+}
+.movie-card{
+  position:relative;
+  top:25%;
+}
+h3{
+  font-size:1.6rem;
+  font-weight:600;
+  color:#fff;
+  padding-bottom:10px;
+}
+h4{
+  font-size:1.3rem;
+  font-weight:400;
+  padding-bottom:6px;
+  color:#F7CB19;
+}
+.duration{
+  font-size:.9rem;
+  background-color:transparent;
+  color:#fff;
+  border-radius:4px;
+  padding:0 4px;
+  border:2px solid #eee;
+  border-radius:5px;
+}
+.start-icons{
+  display:flex;
+  gap:10px;
+ color:#F7CB19;
+ position:relative;
+  top:10px;
+}
+.icon-title{
+  color:#fff;
+  font-weight:500;
+}
+.footer-btn{
+  background-color:#CC3333;
+  color:#fff;
+  font-size:1rem;
+  letter-spacing:1.1px;
+  padding:10px 40px;
+  border-radius:6px;
+  position:absolute;
+  bottom:-45%;
+ }
+.footer-btn .fa-caret-right{
+  margin-left:10px;
+  font-size:1.2rem;
+}
+.footer-title{
+  font-size:1rem;
+  color:#fff;
+  word-wrap:wrap;
+  font-weight:560;
+  letter-spacing:1px;
+  margin-top:3.5%;
+}

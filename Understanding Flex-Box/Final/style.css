@@ -211,5 +211,36 @@ width:200px;
   width:200px;
   height:auto;
   border-radius:3px;
- 
 }
+.flex-box-container{
+    border:6px solid orange;
+    display:flex;
+    margin:20px 0;
+  width:1000px;
+  flex-direction:row;
+  flex-wrap:wrap;
+  flex-grow:3;
+
+}
+.box-item-1{
+
+height: 100px;
+background-color: rgb(162, 224, 68);
+  flex-grow:1;
+
+}
+.box-item-2{
+
+height: 100px;
+background-color: rgb(47, 231, 255);
+  flex-grow:2;
+
+}
+.box-item-3{
+  background-color:red;
+  height:100px;
+  flex-grow:1;
+
+}
+
+
